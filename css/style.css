@@ -24,7 +24,7 @@ img {
 
 
 body {
-	font-family:Verdana, Geneva, Tahoma, sans-serif
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
 	font-size: 12px;
 	color: #000;
 }
@@ -60,7 +60,7 @@ a {
 }
 
 #header-con {
-	background-color: #ffffffbe;
+	background-color: #0A192F;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
@@ -74,7 +74,7 @@ a {
 }
 #logo h1{
 	align-self: center;
-	color: rgb(0, 0, 0);
+	color: rgb(246, 232, 232);
 }
 
 #main-nav {
@@ -86,7 +86,7 @@ justify-content: space-around;
 padding: 0px;
 font-size: 18px;
 font-family: 'Ubuntu', sans-serif;
-background-color: #00000005;
+background-color: #f0e5e5;
 }
 #main-nav ul{
 
@@ -103,7 +103,7 @@ text-decoration: none;
 padding: 3px 20px;
 }
 #main-nav ul li a:hover{
-	border-bottom: 3px solid rgb(251, 255, 0);
+	border-bottom: 3px solid rgb(19, 255, 113);
 	padding-bottom: 10px;
 	transition: all 0.45s ease-in-out;
 }
@@ -148,9 +148,9 @@ border: none;
 	text-align: left;
 	font-family: Arial, Helvetica, sans-serif;
 }
-.explore-more h3{
+.read-more h3{
 		font-size: 17px;
-		background-color: rgb(221, 255, 0);
+		background-color: rgb(115, 117, 98);
 		color: white;
 		padding: 8px 15px;
 		border-radius: 30px;
@@ -160,7 +160,7 @@ border: none;
 		margin-top: 153px;
 		font-family: Arial, Helvetica, sans-serif;
 }
-.explore-more h3:hover{
+.read-more h3:hover{
 	color: #000;
 	background-color: #ffffff;
 	transition: background-color 0.5s ease-in-out;
@@ -270,7 +270,7 @@ border: none;
 	height: 700px;
 }
 #about-text button{
-	background-color: #000000;
+	background-color: #6d5454;
        padding: 7px 0px;
     border: none;
     border-radius: 24px;
@@ -288,7 +288,7 @@ border: none;
 }
 #about-text button:hover{
 	color: #000;
-	background-color: #ffffff;
+	background-color: #ca1414;
 	transition: background-color 0.5s ease-in-out;
 	box-shadow: 2px 3px 13px 5px rgba(0, 0, 0, 0.5);
 	box-shadow: 1px 5px 22px 0.5px rgba(0, 0, 0, 0.3);
@@ -329,7 +329,7 @@ border: none;
 	    margin-bottom: 100px;
 }
 #contact-form label{
-	color: #000;
+	color: #0A192F;
 	display: block;
 	margin-bottom: 15px;
 	font-weight: bold;
@@ -354,26 +354,27 @@ border: none;
 #contact-form textarea{
 height: 75px;
 border-radius: 14px;}
+
 #contact-form button{
     display: block;
     width: 100%;
     padding: 10px;
-    font-size: 16px;
-    background-color: #838080;
+    font-size: 20px;
+    background-color: #00B3B3;
     color: #fff;
     border: none;
-    border-radius: 5px;
+    border-radius: 1px;
     cursor: pointer;
-    margin-top: 25px;
+    margin-top: 15px;
 }
 #contact-form button:hover{
-	background-color: #3e8e41;
+	background-color: #4e5c5c;
 }
 
 
 
 #footer-con {
-	background-color: #000000;
+	background-color: #0A192F;
 	padding-top: 50px;
 	padding-bottom: 20px;
 }
@@ -382,12 +383,12 @@ border-radius: 14px;}
 	display: flex;
     grid-column: 1/3;
     height: 80px;
-    background-color: #000;
+    background-color: #ffffff;
     align-items: center;
     justify-content: center;
 }
 #footer-logo h1{
-	color: white;
+	color: rgb(0, 0, 0);
 }
 
 #footer-nav {
@@ -400,7 +401,7 @@ border-radius: 14px;}
 	padding: 0px;
 	font-size: 18px;
 	font-family: 'Ubuntu', sans-serif;
-	background-color: #000;
+	background-color: #ffffff;
 }
 #footer-nav ul{
 	
@@ -411,70 +412,38 @@ border-radius: 14px;}
 }
 #footer-nav ul li a{
 	    padding: 9px 56px;
-		color: #ffffff;
+		color: #000000;
 }
 #footer-nav ul li a:hover{
-	color: rgb(206, 206, 206);
+	color: rgb(0, 0, 0);
 }
 
 
-#footer-newsletter1 {
-	grid-column: 1/3;
-	
-	display: flex;
-    align-items: center;
-    justify-content: center;
-	background-color: black;
-}
-#footer-newsletter1 h3{
-	color: white;
-    border-right: 1px solid white;
-    padding-right: 16px;
-}
-#footer-newsletter2 {
-	grid-column:4/5;
-    height: 80px;
-    align-items: center;
-    display: flex;
-   
-    background-color: black;
-    margin-left: -211px;
-  
-    padding-left: 23px;
-}
 
-#footer-newsletter2 input{
-	background-color: black;
-    border: 2px solid rgb(179, 179, 179);
-    text-align:center;
-    border-radius: 1px;
-	padding: 3px 3px;
-}
+
 #footer-newsletter2 input:hover{
-	border-color: white;
+	border-color: rgb(255, 0, 0);
 }
 #footer-newsletter2 button{
 border: none;
 border-radius: 10px;
 border-radius: 1px;
-background-color: black;
-color: white;
-border: 2px solid rgb(179, 179, 179);
+
 cursor: pointer;
 padding: 2px 11px;
 }
 #footer-newsletter2 button:hover{
-	border-color: rgb(255, 255, 255);
+	border-color: rgb(51, 29, 161);
 }
 #footer-social {
 	grid-column: 11/-1;
-	background-color: #000;
+	background-color: #ffffff;
 	    align-items: center;
     display: flex;
     justify-content: center;
 }
 #footer-social p{
-	color: white;
+	color: rgb(230, 26, 26);
 	
 }
 
@@ -483,8 +452,8 @@ padding: 2px 11px;
 /* gallery page */
 
 #gallery-hero-con {
-	background-color: #aaaaaa;
-	background: url("../images/gallery/main_img.jpg");
+	background-color: #f90000;
+	background: url("../images/deal-banner.png");
 	height: 580px;
     background-color: rgba(0,0 , 0, 0.4);
     background-blend-mode: overlay;
@@ -519,7 +488,7 @@ padding: 2px 11px;
     padding: 8px 0px;
 }
 .collection-btn a{
-	color: rgb(0, 0, 0);
+	color: rgb(245, 25, 25);
 	padding: 9px 30px;
 }
 .collection-btn a:hover{
@@ -529,7 +498,7 @@ padding: 2px 11px;
 	background-color: rgb(255, 0, 0);
 }
 .dot {
-	background-color: #dddddd;
+	background-color: #ffffff;
 	height: 30px;
 	width: 30px;
 	border-radius: 50%;
@@ -542,12 +511,12 @@ padding: 2px 11px;
 	grid-column: 1/-1;
     text-align: center;
     margin: 70px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid rgb(255, 255, 255);
     padding-bottom: 10px;
   }
 
 .gallery-box {
-	background-color: #ddd;
+	background-color: #333333;
 	grid-column: span 4 / span 4;
 	
 	margin-bottom: 20px;
@@ -556,12 +525,12 @@ padding: 2px 11px;
 }
 .gallery-box:hover{
 
-	box-shadow: 3px -2px 9px -2px rgba(0, 0, 0, 0.4);
+	box-shadow: 3px -2px 9px -2px rgba(5, 252, 186, 0.4);
 }
 .gallery-box img:hover{
 	 
 	transform: scale(1.0);
-	box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+	box-shadow: 0 5px 20px rgba(255, 0, 0, 0.3);
 }
 .shoe-info{
 	padding-left: 15px;
@@ -571,14 +540,12 @@ padding: 2px 11px;
 	padding: 5px;
 }
 .shoe-name{
-	color: black;
+	color: rgb(255, 255, 255);
 	font-size: 16px;
 }
-.category{
-	color: #757575;
-}
+
 .shoe-colors{
-	color: #757575;
+	color: #ff0000;
 }
 .shoe-price{
 	font-size: 16px;
